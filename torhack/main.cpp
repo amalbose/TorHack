@@ -38,7 +38,6 @@ int main(int argc, char** argv) {
 	rect.h = 200;
 	Uint32 color = SDL_MapRGB(screen->format, 0xff, 0xff, 0xff);
 	Uint32 color2 = SDL_MapRGB(screen->format, 10, 220, 101);
-	std::cout << "isdn";
 	while (running) {
 		start = SDL_GetTicks();
 		SDL_Event event;
