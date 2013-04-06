@@ -21,6 +21,8 @@
 #ifndef SYSTEM_H_
 #define SYSTEM_H_
 
+#include <iostream>
+
 namespace torhack {
 
 class System {
